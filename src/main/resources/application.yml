@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: springboot-apollo
+server:
+  port: 8888
+app:
+  id: springboot-apollo-111
+apollo:
+  # Apollo配置服务演示地址 http://106.54.227.205
+  meta: http://106.54.227.205:8080/
+  bootstrap:
+    enabled: true
